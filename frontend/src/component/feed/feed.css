@@ -1,0 +1,26 @@
+.feed{
+    flex: 5.5;
+    height: calc(100vh - 50px);
+    /* height: 95vh; */
+    overflow-y: scroll;
+    position: sticky;
+    top: 50px;
+}
+.feedWraper{
+    padding: 20px;
+    /* overflow-y: scroll; */
+    /* position: static; */
+    
+}
+::-webkit-scrollbar{
+    width: 5px;
+}
+::-webkit-scrollbar-track{
+    background-color: #f1f1f1;
+}
+::-webkit-scrollbar-thumb{
+    background-color: rgb(211, 208, 208);
+}
+.sidebarWrapper{
+    padding: 20px;
+}
